@@ -26,7 +26,7 @@ img {
   padding: 1rem;
   width: 60%;
   border-radius: 26px;
-  opacity:85%;
+  opacity:70%;
 }
 
 .about {
@@ -185,4 +185,10 @@ img {
   .say-thank {
     margin-top: 2rem;
   }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url(./img/mobi.jpg);
+    }
 }
