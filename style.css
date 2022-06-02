@@ -192,3 +192,9 @@ img {
         background-image: url(./img/mobi.jpg);
     }
 }
+
+@media (max-width: 480px) {
+    body {
+        background-image: url(./img/mobismall.jpg);
+    }
+}
